@@ -43,7 +43,7 @@ const renderCounterApp = () =>{
        <h1>
          Count : {count}
          </h1>
-         <button id={buttonId} onClick={addOne} className="botton">+1</button>
+         <button id={buttonId} onClick={addOne} className="button">+1</button>
          <button onClick={minusOne}>-1</button>
          <button onClick={reset}>Reset</button>
   
